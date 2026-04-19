@@ -1,4 +1,4 @@
-
+style.css
 /* Здесь вы напишете основную часть стилей страницы.
 
 Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
@@ -357,13 +357,9 @@
   }
 }
 
-@supports (
-  (-webkit-text-stroke: 1px var(--page-background-color, #ffffff)) or
-    (text-stroke: 1px var(--page-background-color, #ffffff))
-) {
+@supports (-webkit-text-stroke: 1px var(--page-background-color, #ffffff)) {
   .card__img-label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--page-background-color, #ffffff);
-    text-stroke: 1px var(--page-background-color, #ffffff);
   }
 }
