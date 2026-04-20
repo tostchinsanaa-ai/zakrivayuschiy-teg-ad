@@ -340,6 +340,13 @@ style.css
   inline-size: 39px;
 }
 
+@keyframes pulse-grayscale {
+  0%, 100% { filter: grayscale(70%); }
+  50%      { filter: grayscale(0%); }
+}
+.filter-grayscale {
+  animation: pulse-grayscale 10000s infinite;
+}
 /* 376 взято так как в фигме на 375 уже стоят определенные стили, а при использовании width <= 375px 375 все еще включает в себя стили для значений больше 375 ???? */
 @media (width < 376px) {
   .modal {
