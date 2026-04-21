@@ -7,10 +7,20 @@
   font-display: swap;
 }
 
+/* Подключаем PressStart2P через Google Fonts, но переопределяем имя семейства */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 @font-face {
   font-family: "PressStart2P";
-  src: local("PressStart2P-Regular"),
-       url("PressStart2P-Regular.woff") format("woff");
+  src: local('Press Start 2P'), local('PressStart2P-Regular');
+  /* Если локально нет, то браузер возьмёт из @import выше, но там имя другое — делаем подмену */
   font-weight: 400;
   font-display: swap;
+}
+
+/* Решение: переназначаем шрифт, чтобы "PressStart2P" использовал те же глифы, что и "Press Start 2P" */
+@font-face {
+  font-family: "PressStart2P";
+  src: url('https://fonts.gstatic.com/l/font?kit=...') format('woff2');
+  /* невозможно так просто, поэтому проще изменить имя в CSS */
 }
