@@ -60,7 +60,7 @@ style.css
   border: 2px solid var(--text-color, #000000);
   padding: 25px 30px;
   color: var(--text-color, #000000);
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "Press Start 2P", fantasy);
   line-height: 1.5;
   text-transform: uppercase;
   background: var(--page-background-color, #ffffff);
@@ -103,7 +103,7 @@ style.css
   display: grid;
   justify-items: center;
   justify-content: center;
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "Press Start 2P", fantasy);
   line-height: normal;
   text-transform: uppercase;
 }
@@ -220,7 +220,7 @@ style.css
   opacity: 0.5;
 
   color: var(--text-color, #000000);
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "Press Start 2P", fantasy);
 
   font-size: 14px;
   line-height: normal;
@@ -281,7 +281,7 @@ style.css
   z-index: 1;
   border: 2px solid var(--text-color, #000000);
   padding: 10px 36px;
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "Press Start 2P", fantasy);
   font-size: 14px;
   text-transform: inherit;
   background: var(--page-background-color, #ffffff);
