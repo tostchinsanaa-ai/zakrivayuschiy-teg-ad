@@ -314,7 +314,11 @@ style.css
 .button:hover::before {
   transform: scaleX(1);
 }
-
+.card__like-button {
+  min-width: 150px; 
+  max-width: 150px;
+  text-align: center;
+}
 .button--save {
   display: flex;
   flex-direction: row;
